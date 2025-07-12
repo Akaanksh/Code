@@ -30,12 +30,12 @@ The project supports training on any bilingual language pair (e.g., English–Hi
 
 ## Features
 
-- ✅ **Transformer built from scratch (no `nn.Transformer`)**
-- ✅ Works with any HuggingFace `translation` dataset
-- ✅ Word-level tokenizers trained per language using `tokenizers`
-- ✅ Custom masking logic (padding and causal masks)
-- ✅ Efficient greedy decoding for inference
-- ✅ Evaluation: BLEU, Character Error Rate (CER), and Word Error Rate (WER)
+- **Transformer built from scratch (no `nn.Transformer`)**
+- Works with any HuggingFace `translation` dataset
+- Word-level tokenizers trained per language using `tokenizers`
+- Custom masking logic (padding and causal masks)
+- Efficient greedy decoding for inference
+- Evaluation: BLEU, Character Error Rate (CER), and Word Error Rate (WER)
 
 ---
 
